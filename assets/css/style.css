@@ -141,7 +141,6 @@ footer {
 }
 
 .row {
-    diplay: flex;
     flex-wrap: wrap;
     padding: 0 4px;
 }
