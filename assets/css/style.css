@@ -25,6 +25,7 @@ p {
 }
 .container {
     margin: auto;
+    border-color: #dddddd;
 }
 
 .displayflex {
@@ -45,11 +46,18 @@ hr {
     border: 0px;
 }
 
+h1, h2 {
+    font-style: 'Gerogia', Times, Times New Roman, serif;
+}
+
 h2 {
     font-size: xx-large;
     font-weight: bold;
 }
 
+a, p, img {
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 img {
     height: 200px;
     width: auto;
@@ -67,6 +75,7 @@ header {
     background-color: white;
     overflow: hidden;
     height: 60px;
+    border-color: #cccccc;
  }
  
 .name {
@@ -121,13 +130,14 @@ textarea {
 }
 
 footer {
-    background-color: grey;
+    background-color: #666666;
     color: white;
     text-align: center;
     bottom: 0;
     width: 100%;
     height: 60px;
-    position: absolute;
+    border-top: 8px solid #4aaaa5;
+    flex-shrink: 0;
 }
 
 .copyright {
